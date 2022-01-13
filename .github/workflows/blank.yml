@@ -3,19 +3,20 @@
 name: Automation Example
 
 on:
-  issues:
-    types: [opened]
+  member:
+    types: [created]
 
 jobs:
-  comment:
+  automation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v5
         with:
           script: |
-            github.rest.issues.addAssignees({
+            github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
-              assignees: "Nayana-Nagaraj"
+              title: HI
+         
             })
+
