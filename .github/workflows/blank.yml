@@ -3,9 +3,8 @@
 name: Automation Example
 
 on:
-  member:
-    types: [created]
-
+  issues:
+    types: [opened]
 jobs:
   automation:
     runs-on: ubuntu-latest
