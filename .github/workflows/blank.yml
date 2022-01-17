@@ -15,7 +15,7 @@ jobs:
             github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: HI
+              title: "HI"
          
             })
 
