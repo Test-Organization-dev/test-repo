@@ -15,7 +15,8 @@ jobs:
             github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: "HI"
+              title: "Hello Welcome To Devtools Organizarion"
+              description: " The entire team of Devtools is thrilled to welcome you on board. We hope you'll do some amazing works here! A warm welcome and lots of good wishes on becoming part of our growing team."
          
             })
 
