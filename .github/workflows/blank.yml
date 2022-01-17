@@ -16,7 +16,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: "Hello Welcome To Devtools Organizarion"
-              description: {This is an Issue}
+              body: {This is an Issue}
          
             })
 
